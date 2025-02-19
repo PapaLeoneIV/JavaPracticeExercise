@@ -1,0 +1,8 @@
+com/ric/api/person/Person.class
+com/ric/api/handler/DirectorHandler.class
+com/ric/api/interfaces/Preaparedata.class
+com/ric/api/database/Database.class
+com/ric/api/director/Director.class
+com/ric/api/movie/Movie.class
+com/ric/api/product/Product.class
+com/ric/api/Main.class
