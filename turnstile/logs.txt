@@ -1,0 +1,279 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mit.tdgc:turnstile[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding turnstile 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.4.2:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mturnstile[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mturnstile[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mturnstile[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mturnstile[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/papaleoneiv/Desktop/JavaPracticeExercise/turnstile/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mturnstile[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.4.2:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mturnstile[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.4.2:run[m [1m(default-cli)[m @ [36mturnstile[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-24T14:08:48.888+01:00  INFO 51445 --- [turnstile] [           main] it.tdgc.turnstile.TurnstileApplication   : Starting TurnstileApplication using Java 21.0.6 with PID 51445 (/home/papaleoneiv/Desktop/JavaPracticeExercise/turnstile/target/classes started by papaleoneiv in /home/papaleoneiv/Desktop/JavaPracticeExercise/turnstile)
+2025-02-24T14:08:48.890+01:00  INFO 51445 --- [turnstile] [           main] it.tdgc.turnstile.TurnstileApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-02-24T14:08:49.369+01:00  INFO 51445 --- [turnstile] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-24T14:08:49.415+01:00  INFO 51445 --- [turnstile] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2025-02-24T14:08:49.797+01:00  INFO 51445 --- [turnstile] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-24T14:08:49.809+01:00  INFO 51445 --- [turnstile] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-24T14:08:49.809+01:00  INFO 51445 --- [turnstile] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-24T14:08:49.848+01:00  INFO 51445 --- [turnstile] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-24T14:08:49.849+01:00  INFO 51445 --- [turnstile] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2025-02-24T14:08:49.981+01:00  INFO 51445 --- [turnstile] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-24T14:08:50.018+01:00  INFO 51445 --- [turnstile] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-24T14:08:50.043+01:00  INFO 51445 --- [turnstile] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-24T14:08:50.277+01:00  INFO 51445 --- [turnstile] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-24T14:08:50.302+01:00  INFO 51445 --- [turnstile] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-24T14:08:50.662+01:00  INFO 51445 --- [turnstile] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9e62fb
+2025-02-24T14:08:50.663+01:00  INFO 51445 --- [turnstile] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-24T14:08:50.692+01:00  WARN 51445 --- [turnstile] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-24T14:08:50.709+01:00  INFO 51445 --- [turnstile] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.15
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-24T14:08:51.500+01:00  INFO 51445 --- [turnstile] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-24T14:08:51.512+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+Hibernate: 
+    set client_min_messages = WARNING
+2025-02-24T14:08:51.514+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    alter table if exists public.employee 
+       drop constraint if exists FK3046kvjyysq288vy3lsbtc9nw
+Hibernate: 
+    alter table if exists public.employee 
+       drop constraint if exists FK3046kvjyysq288vy3lsbtc9nw
+2025-02-24T14:08:51.515+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    alter table if exists public.log 
+       drop constraint if exists FKsw0tpwnwtxt8c6qsvv593thol
+Hibernate: 
+    alter table if exists public.log 
+       drop constraint if exists FKsw0tpwnwtxt8c6qsvv593thol
+2025-02-24T14:08:51.515+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    drop table if exists public.employee cascade
+Hibernate: 
+    drop table if exists public.employee cascade
+2025-02-24T14:08:51.516+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    drop table if exists public.log cascade
+Hibernate: 
+    drop table if exists public.log cascade
+2025-02-24T14:08:51.516+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    drop table if exists role cascade
+Hibernate: 
+    drop table if exists role cascade
+2025-02-24T14:08:51.517+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    drop sequence if exists employee_id_seq
+Hibernate: 
+    drop sequence if exists employee_id_seq
+2025-02-24T14:08:51.517+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    drop sequence if exists log_id_seq
+Hibernate: 
+    drop sequence if exists log_id_seq
+2025-02-24T14:08:51.517+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    drop sequence if exists role_seq
+Hibernate: 
+    drop sequence if exists role_seq
+2025-02-24T14:08:51.522+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    create table public.employee (
+        id bigint not null,
+        role_id bigint,
+        email varchar(255),
+        name varchar(255),
+        surname varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table public.employee (
+        id bigint not null,
+        role_id bigint,
+        email varchar(255),
+        name varchar(255),
+        surname varchar(255),
+        primary key (id)
+    )
+2025-02-24T14:08:51.539+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    create table public.log (
+        date timestamp(6),
+        employee_id bigint not null,
+        enter_time timestamp(6),
+        exit_time timestamp(6),
+        id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table public.log (
+        date timestamp(6),
+        employee_id bigint not null,
+        enter_time timestamp(6),
+        exit_time timestamp(6),
+        id bigint not null,
+        primary key (id)
+    )
+2025-02-24T14:08:51.547+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    create sequence employee_id_seq start with 1 increment by 1
+Hibernate: 
+    create sequence employee_id_seq start with 1 increment by 1
+2025-02-24T14:08:51.549+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    create sequence log_id_seq start with 1 increment by 1
+Hibernate: 
+    create sequence log_id_seq start with 1 increment by 1
+2025-02-24T14:08:51.551+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    create sequence role_seq start with 1 increment by 50
+Hibernate: 
+    create sequence role_seq start with 1 increment by 50
+2025-02-24T14:08:51.553+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    create table role (
+        level integer not null,
+        id bigint not null,
+        description varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table role (
+        level integer not null,
+        id bigint not null,
+        description varchar(255),
+        primary key (id)
+    )
+2025-02-24T14:08:51.565+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    alter table if exists public.employee 
+       add constraint FK3046kvjyysq288vy3lsbtc9nw 
+       foreign key (role_id) 
+       references role
+Hibernate: 
+    alter table if exists public.employee 
+       add constraint FK3046kvjyysq288vy3lsbtc9nw 
+       foreign key (role_id) 
+       references role
+2025-02-24T14:08:51.571+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : 
+    alter table if exists public.log 
+       add constraint FKsw0tpwnwtxt8c6qsvv593thol 
+       foreign key (employee_id) 
+       references public.employee
+Hibernate: 
+    alter table if exists public.log 
+       add constraint FKsw0tpwnwtxt8c6qsvv593thol 
+       foreign key (employee_id) 
+       references public.employee
+2025-02-24T14:08:51.578+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : DROP TABLE IF EXISTS log
+Hibernate: DROP TABLE IF EXISTS log
+2025-02-24T14:08:51.581+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : DROP TABLE IF EXISTS employee
+Hibernate: DROP TABLE IF EXISTS employee
+2025-02-24T14:08:51.586+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : DROP TABLE IF EXISTS role
+Hibernate: DROP TABLE IF EXISTS role
+2025-02-24T14:08:51.588+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : CREATE TABLE role ( id SERIAL PRIMARY KEY, level INT NOT NULL, description VARCHAR(100))
+Hibernate: CREATE TABLE role ( id SERIAL PRIMARY KEY, level INT NOT NULL, description VARCHAR(100))
+2025-02-24T14:08:51.593+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : CREATE TABLE employee ( id SERIAL PRIMARY KEY, name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, role_id INT NOT NULL, FOREIGN KEY (role_id) REFERENCES role(id))
+Hibernate: CREATE TABLE employee ( id SERIAL PRIMARY KEY, name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, role_id INT NOT NULL, FOREIGN KEY (role_id) REFERENCES role(id))
+2025-02-24T14:08:51.600+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : CREATE TABLE log( id SERIAL PRIMARY KEY, employee_id INT NOT NULL, date DATE NOT NULL, enter_time TIMESTAMP NOT NULL, exit_time TIMESTAMP NOT NULL, FOREIGN KEY (employee_id) REFERENCES employee(id))
+Hibernate: CREATE TABLE log( id SERIAL PRIMARY KEY, employee_id INT NOT NULL, date DATE NOT NULL, enter_time TIMESTAMP NOT NULL, exit_time TIMESTAMP NOT NULL, FOREIGN KEY (employee_id) REFERENCES employee(id))
+2025-02-24T14:08:51.606+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO role (level, description) VALUES (1, 'Admin')
+Hibernate: INSERT INTO role (level, description) VALUES (1, 'Admin')
+2025-02-24T14:08:51.608+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO role (level, description) VALUES (2, 'Manager')
+Hibernate: INSERT INTO role (level, description) VALUES (2, 'Manager')
+2025-02-24T14:08:51.610+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO role (level, description) VALUES (3, 'Senior')
+Hibernate: INSERT INTO role (level, description) VALUES (3, 'Senior')
+2025-02-24T14:08:51.612+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO role (level, description) VALUES (4, 'Mid')
+Hibernate: INSERT INTO role (level, description) VALUES (4, 'Mid')
+2025-02-24T14:08:51.614+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO role (level, description) VALUES (5, 'Junior')
+Hibernate: INSERT INTO role (level, description) VALUES (5, 'Junior')
+2025-02-24T14:08:51.616+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO role (level, description) VALUES (6, 'Stage')
+Hibernate: INSERT INTO role (level, description) VALUES (6, 'Stage')
+2025-02-24T14:08:51.618+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO employee (name, surname, email, role_id) VALUES ('Admin', 'Admin', 'admin@gmail.com', 1)
+Hibernate: INSERT INTO employee (name, surname, email, role_id) VALUES ('Admin', 'Admin', 'admin@gmail.com', 1)
+2025-02-24T14:08:51.620+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO employee (name, surname, email, role_id) VALUES ('Foo', 'Bar', 'baz@gmail.com', 2)
+Hibernate: INSERT INTO employee (name, surname, email, role_id) VALUES ('Foo', 'Bar', 'baz@gmail.com', 2)
+2025-02-24T14:08:51.622+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO employee (name, surname, email, role_id) VALUES ('Lorem', 'Ipsum', 'abc@gmail.com', 3)
+Hibernate: INSERT INTO employee (name, surname, email, role_id) VALUES ('Lorem', 'Ipsum', 'abc@gmail.com', 3)
+2025-02-24T14:08:51.624+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO employee (name, surname, email, role_id) VALUES ('Test', 'Test', 'test@gmail.com', 4)
+Hibernate: INSERT INTO employee (name, surname, email, role_id) VALUES ('Test', 'Test', 'test@gmail.com', 4)
+2025-02-24T14:08:51.626+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO employee (name, surname, email, role_id) VALUES ('Martina', '123', 'marty@gmail.com', 5)
+Hibernate: INSERT INTO employee (name, surname, email, role_id) VALUES ('Martina', '123', 'marty@gmail.com', 5)
+2025-02-24T14:08:51.628+01:00 DEBUG 51445 --- [turnstile] [           main] org.hibernate.SQL                        : INSERT INTO employee (name, surname, email, role_id) VALUES ('Riccardo', 'Leone', 'admin@gmail.com', 6)
+Hibernate: INSERT INTO employee (name, surname, email, role_id) VALUES ('Riccardo', 'Leone', 'admin@gmail.com', 6)
+2025-02-24T14:08:51.634+01:00  INFO 51445 --- [turnstile] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-24T14:08:51.842+01:00  WARN 51445 --- [turnstile] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-24T14:08:51.862+01:00  INFO 51445 --- [turnstile] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-02-24T14:08:52.163+01:00  INFO 51445 --- [turnstile] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-24T14:08:52.171+01:00  INFO 51445 --- [turnstile] [           main] it.tdgc.turnstile.TurnstileApplication   : Started TurnstileApplication in 3.649 seconds (process running for 3.919)
+2025-02-24T14:09:16.554+01:00  INFO 51445 --- [turnstile] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-24T14:09:16.554+01:00  INFO 51445 --- [turnstile] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-24T14:09:16.556+01:00  INFO 51445 --- [turnstile] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-24T14:19:32.178+01:00  INFO 51445 --- [turnstile] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-24T14:19:32.181+01:00  INFO 51445 --- [turnstile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-24T14:19:32.186+01:00  INFO 51445 --- [turnstile] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-24T14:19:32.186+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+Hibernate: 
+    set client_min_messages = WARNING
+2025-02-24T14:19:32.189+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    alter table if exists public.employee 
+       drop constraint if exists FK3046kvjyysq288vy3lsbtc9nw
+Hibernate: 
+    alter table if exists public.employee 
+       drop constraint if exists FK3046kvjyysq288vy3lsbtc9nw
+2025-02-24T14:19:32.192+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    alter table if exists public.log 
+       drop constraint if exists FKsw0tpwnwtxt8c6qsvv593thol
+Hibernate: 
+    alter table if exists public.log 
+       drop constraint if exists FKsw0tpwnwtxt8c6qsvv593thol
+2025-02-24T14:19:32.194+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists public.employee cascade
+Hibernate: 
+    drop table if exists public.employee cascade
+2025-02-24T14:19:32.198+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists public.log cascade
+Hibernate: 
+    drop table if exists public.log cascade
+2025-02-24T14:19:32.201+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists role cascade
+Hibernate: 
+    drop table if exists role cascade
+2025-02-24T14:19:32.205+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    drop sequence if exists employee_id_seq
+Hibernate: 
+    drop sequence if exists employee_id_seq
+2025-02-24T14:19:32.207+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    drop sequence if exists log_id_seq
+Hibernate: 
+    drop sequence if exists log_id_seq
+2025-02-24T14:19:32.209+01:00 DEBUG 51445 --- [turnstile] [ionShutdownHook] org.hibernate.SQL                        : 
+    drop sequence if exists role_seq
+Hibernate: 
+    drop sequence if exists role_seq
+2025-02-24T14:19:32.213+01:00  INFO 51445 --- [turnstile] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-24T14:19:32.227+01:00  INFO 51445 --- [turnstile] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10:45 min
+[[1;34mINFO[m] Finished at: 2025-02-24T14:19:32+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
